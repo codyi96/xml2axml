@@ -1,4 +1,4 @@
-package xml2axml;
+package com.codyi.xml2axml;
 
 
 import java.io.IOException;

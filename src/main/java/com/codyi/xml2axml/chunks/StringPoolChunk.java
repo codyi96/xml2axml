@@ -1,8 +1,8 @@
-package xml2axml.chunks;
+package com.codyi.xml2axml.chunks;
 
 import android.text.TextUtils;
-import xml2axml.Encoder;
-import xml2axml.IntWriter;
+import com.codyi.xml2axml.Encoder;
+import com.codyi.xml2axml.IntWriter;
 
 import java.io.IOException;
 import java.nio.charset.Charset;

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package xml2axml.test;
+package com.codyi.xml2axml.test;
 
 import android.content.res.AXmlResourceParser;
 import android.util.TypedValue;

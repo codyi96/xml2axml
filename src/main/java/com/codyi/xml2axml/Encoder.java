@@ -1,10 +1,10 @@
-package xml2axml;
+package com.codyi.xml2axml;
 
 import android.content.Context;
-import xml2axml.chunks.Chunk;
-import xml2axml.chunks.StringPoolChunk;
-import xml2axml.chunks.TagChunk;
-import xml2axml.chunks.XmlChunk;
+import com.codyi.xml2axml.chunks.Chunk;
+import com.codyi.xml2axml.chunks.StringPoolChunk;
+import com.codyi.xml2axml.chunks.TagChunk;
+import com.codyi.xml2axml.chunks.XmlChunk;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 import org.xmlpull.v1.XmlPullParserFactory;

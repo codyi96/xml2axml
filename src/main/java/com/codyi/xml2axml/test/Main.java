@@ -1,7 +1,7 @@
-package xml2axml.test;
+package com.codyi.xml2axml.test;
 
 import android.content.Context;
-import xml2axml.Encoder;
+import com.codyi.xml2axml.Encoder;
 import org.apache.commons.io.FileUtils;
 import org.xmlpull.v1.XmlPullParserException;
 

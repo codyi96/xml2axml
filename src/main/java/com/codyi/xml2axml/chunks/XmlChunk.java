@@ -1,9 +1,9 @@
-package xml2axml.chunks;
+package com.codyi.xml2axml.chunks;
 
 import android.content.Context;
-import xml2axml.DefaultReferenceResolver;
-import xml2axml.IntWriter;
-import xml2axml.ReferenceResolver;
+import com.codyi.xml2axml.DefaultReferenceResolver;
+import com.codyi.xml2axml.IntWriter;
+import com.codyi.xml2axml.ReferenceResolver;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package xml2axml.chunks;
+package com.codyi.xml2axml.chunks;
 
 enum ChunkType {
     Null(0x0000, -1),

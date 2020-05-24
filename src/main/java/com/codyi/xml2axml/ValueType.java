@@ -1,4 +1,4 @@
-package xml2axml;
+package com.codyi.xml2axml;
 
 /**
  * Created by Roy on 15-10-5.

@@ -1,7 +1,7 @@
-package xml2axml.chunks;
+package com.codyi.xml2axml.chunks;
 
-import xml2axml.IntWriter;
-import xml2axml.ValueType;
+import com.codyi.xml2axml.IntWriter;
+import com.codyi.xml2axml.ValueType;
 
 import java.io.IOException;
 

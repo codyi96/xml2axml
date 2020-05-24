@@ -1,6 +1,6 @@
-package xml2axml;
+package com.codyi.xml2axml;
 
-import xml2axml.chunks.ValueChunk;
+import com.codyi.xml2axml.chunks.ValueChunk;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

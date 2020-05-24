@@ -1,6 +1,6 @@
-package xml2axml;
+package com.codyi.xml2axml;
 
-import xml2axml.test.AXMLPrinter;
+import com.codyi.xml2axml.test.AXMLPrinter;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
 

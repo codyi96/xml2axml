@@ -1,10 +1,10 @@
-package xml2axml.chunks;
+package com.codyi.xml2axml.chunks;
 
 import android.graphics.Color;
-import xml2axml.ComplexConsts;
-import xml2axml.IntWriter;
-import xml2axml.NotImplementedException;
-import xml2axml.ValueType;
+import com.codyi.xml2axml.ComplexConsts;
+import com.codyi.xml2axml.IntWriter;
+import com.codyi.xml2axml.NotImplementedException;
+import com.codyi.xml2axml.ValueType;
 
 import java.io.IOException;
 import java.util.regex.Matcher;
