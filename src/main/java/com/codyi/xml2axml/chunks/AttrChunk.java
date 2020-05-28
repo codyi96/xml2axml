@@ -1,5 +1,6 @@
 package com.codyi.xml2axml.chunks;
 
+import android.text.TextUtils;
 import com.codyi.xml2axml.IntWriter;
 import com.codyi.xml2axml.ValueType;
 
@@ -32,7 +33,8 @@ public class AttrChunk extends Chunk<Chunk.EmptyHeader>{
 
     @Override
     public void writeEx(IntWriter w) throws IOException {
-        w.write(startTagChunk.stringIndex(null,namespace));
+        // namespace为空字符串时，参数传null，避免以空串为真实值进行查找
+        w.write(startTagChunk.stringIndex(null, TextUtils.isEmpty(namespace) ? null : namespace));
         w.write(startTagChunk.stringIndex(namespace,name));
         //w.write(-1);
         if (value.type==ValueType.STRING)

@@ -215,7 +215,8 @@ public class StringPoolChunk extends Chunk<StringPoolChunk.H>{
     public int stringIndex(String namespace, String s) {
         namespace=preHandleString(namespace);
         s=preHandleString(s);
-        if (TextUtils.isEmpty(s)) return -1;
+        // 放行空字符串，仅拦截null
+        if (s == null) return -1;
         int l=rawStrings.size();
         for (int i=0;i<l;++i){
             StringItem item=rawStrings.get(i).origin;

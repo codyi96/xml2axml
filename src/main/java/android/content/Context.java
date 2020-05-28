@@ -12,6 +12,6 @@ public class Context {
     }
 
     public String getPackageName() {
-        return "com.bighzao.xml2axml";
+        return "com.example.reforceapp";
     }
 }

@@ -289,6 +289,7 @@ public class AXmlResourceParser implements XmlResourceParser {
 		if (valueType== TypedValue.TYPE_STRING) {
 			int valueString=m_attributes[offset+ATTRIBUTE_IX_VALUE_STRING];
 			String value = m_strings.getString(valueString);
+			// 非null判定，避免生成值为"null"
 			if (value != null) {
 				return value;
 			}
