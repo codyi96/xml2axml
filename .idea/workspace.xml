@@ -2,31 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81f1c5b1-aa95-4d38-ab67-e30506ab1e45" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/xml2axml.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/xml2axml.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xml2axml/AxmlUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xml2axml/ComplexConsts.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xml2axml/DefaultReferenceResolver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xml2axml/Encoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xml2axml/IntWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xml2axml/NotImplementedException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xml2axml/ReferenceResolver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xml2axml/ValueType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xml2axml/chunks/AttrChunk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xml2axml/chunks/Chunk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xml2axml/chunks/ChunkType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xml2axml/chunks/EndNameSpaceChunk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xml2axml/chunks/EndTagChunk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xml2axml/chunks/ResourceMapChunk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xml2axml/chunks/StartNameSpaceChunk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xml2axml/chunks/StartTagChunk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xml2axml/chunks/StringPoolChunk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xml2axml/chunks/TagChunk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xml2axml/chunks/ValueChunk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xml2axml/chunks/XmlChunk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xml2axml/test/AXMLPrinter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xml2axml/test/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README_zh-CN.md" beforeDir="false" afterPath="$PROJECT_DIR$/README_zh-CN.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
