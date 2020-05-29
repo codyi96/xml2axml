@@ -7,12 +7,12 @@ Tool for encoding xml to axml OR decoding axml to xml
 
 #### xml to axml  
 ``` shell
-java -jar xml2axml-2.0.0.jar e [AndroidManifest-readable-in.xml] [AndroidManifest-bin-out.xml]
+java -jar xml2axml-2.0.1.jar e [AndroidManifest-readable-in.xml] [AndroidManifest-bin-out.xml]
 ```
 
 #### axml to xml
 ``` shell
-java -jar xml2axml-2.0.0.jar d [AndroidManifest-bin-in.xml] [AndroidManifest-readable-out.xml]
+java -jar xml2axml-2.0.1.jar d [AndroidManifest-bin-in.xml] [AndroidManifest-readable-out.xml]
 ```
 
 ### Acknowledgements
