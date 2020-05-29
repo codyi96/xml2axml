@@ -222,6 +222,10 @@ public class StringPoolChunk extends Chunk<StringPoolChunk.H>{
             StringItem item=rawStrings.get(i).origin;
             if (s.equals(item.string)&&(TextUtils.isEmpty(namespace)||namespace.equals(item.namespace))) return i;
         }
+        // 拦截空串
+        if (TextUtils.isEmpty(s)) {
+            return -1;
+        }
         throw new RuntimeException("String: '"+s+"' not found");
         //return -1;
     }
