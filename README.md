@@ -1,4 +1,7 @@
 # xml2axml
+
+[![HitCount](http://hits.dwyl.com/codyi96/xml2axml.svg)](http://hits.dwyl.com/codyi96/xml2axml)
+
 English | [中文](README_zh-CN.md)
 
 Tool for encoding xml to axml OR decoding axml to xml
