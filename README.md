@@ -27,7 +27,6 @@ Will produce two outputs in `/build/libs`:
 - `xml2axml` - a binary executable that can be run standalone
 
 ### Acknowledgements
-# TODO
 - [xml2axml](https://github.com/codyi96/xml2axml) by [codyi96](https://github.com/codyi96)
 - [xml2axml](https://github.com/l741589/xml2axml) by [l741589](https://github.com/l741589)
 - [xml2axml](https://github.com/hzw1199/xml2axml) by [hzw1199](https://github.com/hzw1199)
