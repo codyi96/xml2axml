@@ -181,7 +181,7 @@ public class StringPoolChunk extends Chunk<StringPoolChunk.H>{
             String pkg="http://schemas.android.com/apk/res-auto".equals(namespace)?getContext().getPackageName():
                     namespace.startsWith("http://schemas.android.com/apk/res/")?namespace.substring("http://schemas.android.com/apk/res/".length()):null;
             if (pkg==null) return;
-            id=getContext().getResources().getIdentifier(string,"attr",pkg);
+            id=getContext().getResources().getIdentifier(string,"attr",pkg, false);
         }
     }
 
