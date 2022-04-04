@@ -22,7 +22,7 @@ public class DefaultReferenceResolver implements ReferenceResolver {
         }catch (Exception e){
             e.printStackTrace();
         }
-        int id=value.getContext().getResources().getIdentifier(name,type,pkg);
+        int id=value.getContext().getResources().getIdentifier(name,type,pkg, false);
         return id;
 
     }
